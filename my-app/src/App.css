@@ -14,20 +14,27 @@ body {
     text-align: center;
  }
 
- .navlinks {
-    font-size: 15px;
-    font-weight: 700;
-    padding: 30px;
-    color: silver;
-    text-decoration: none;
- }
-h1, h3 {
+
+
+ h1, h3 {
     text-align: center;
 }
 p {
     text-align: center;
 }
-
+.navlinks {
+    font-size: 15px;
+    font-weight: 700;
+    color: blanchedalmond;
+    padding: 25px 0;
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.navlinks:hover {
+    border-bottom:10px blanchedalmond;
+}
 .homesection {
     margin:auto;
     width: 50%;
@@ -39,6 +46,35 @@ footer {
     bottom: 0;
     width: 50vw;
     background-color: black;
-    color: white;
+    color: blanchedalmond;
+    border-radius: 10px;
+}
+.p {
+    font-size: 700px;
+}
+.projects {
+    margin-top: 70px;
+    margin-left: 150px;
+    width: 550px;
+    height: 500px;
+    background-color: silver;
     border-radius: 20px;
 }
+
+.current {
+    padding: 5px;
+    width: 375px;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 85px;
+}
+
+.current-header{
+    margin-top: 25px;
+}
+
+img:hover {
+    box-shadow: 0 0 10px 1px black;
+  }
+
