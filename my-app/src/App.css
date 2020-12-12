@@ -14,13 +14,14 @@ body {
     text-align: center;
  }
 
-
-
- h1, h3 {
+h1, h3 {
     text-align: center;
+    font-weight: 800;
+    font-size: 25px;
 }
 p {
     text-align: center;
+    font-weight: 700;
 }
 .navlinks {
     font-size: 15px;
@@ -34,6 +35,7 @@ p {
 }
 .navlinks:hover {
     border-bottom:10px blanchedalmond;
+    transform: scale(1.1);
 }
 .homesection {
     margin:auto;
@@ -49,20 +51,39 @@ footer {
     color: blanchedalmond;
     border-radius: 10px;
 }
-.p {
-    font-size: 700px;
+p {
+    font-weight: 700px;
 }
 .projects {
-    margin-top: 70px;
+    margin-top: 110px;
     margin-left: 150px;
     width: 550px;
     height: 500px;
     background-color: silver;
     border-radius: 20px;
+    display: inline-block;
+}
+.blackjack-container {
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 550px;
+    height: 500px;
+    background-color: silver;
+    border-radius: 20px;
+    display: inline-block;
 }
 
 .current {
-    padding: 5px;
+    padding: 3px;
+    width: 375px;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 85px;
+}
+.blackjack-img {
+    display: inline-block;
+    padding: 3px;
     width: 375px;
     height: 300px;
     border-radius: 20px;
@@ -71,10 +92,32 @@ footer {
 }
 
 .current-header{
-    margin-top: 25px;
+    padding: 10px;
 }
 
 img:hover {
     box-shadow: 0 0 10px 1px black;
   }
 
+.fling-minislide {
+    width:350px;
+    height:300px; 
+    border-radius: 50%;
+    overflow:hidden; 
+    position:relative; 
+}
+.fling-minislide img {
+    position:absolute;
+    animation:fling-minislide 20s infinite; 
+    opacity:0; 
+    width: 100%; 
+    height: auto;
+    }
+  
+@keyframes fling-minislide { 
+      25%{opacity:1;} 
+      40%{opacity:0;}}
+      .fling-minislide img:nth-child(1){animation-delay:15s;}
+      .fling-minislide img:nth-child(2){animation-delay:10s;}
+      .fling-minislide img:nth-child(3){animation-delay:5s;}
+      .fling-minislide img:nth-child(4){animation-delay:0s;}
