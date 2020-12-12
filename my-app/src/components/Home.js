@@ -5,10 +5,15 @@ function Home() {
     return (
       <div>
         <div class="homesection">
-                <h3>Hello, I'm</h3>
             <h1>Morgan Jaouni</h1>
                 <h3>Full-Stack Software Engineer</h3>
-                 <p>I have a passion for creating full-stack applications with meticulous wireframe/ERD planning, back-end configuration & front-end connection utilizing Node/Django frameworks.</p>
+
+        <div class="fling-minislide">
+        <img src="./Me.jpg" alt="Slide 1" />
+        <img src="./Me.jpg" alt="Slide 2" />
+        <img src="./Current.png" alt="Slide 3" />
+        <img src="./Me.jpg" alt="Slide 4" />
+          </div>
         <footer>
             <h3 class="contact">Contact</h3>
                 <p>Morgan.jaouni@ttu.edu</p>
