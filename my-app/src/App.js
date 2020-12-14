@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import { FaLinkedinIn, FaGit } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import Index from "./components/Index";
 
