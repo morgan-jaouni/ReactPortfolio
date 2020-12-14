@@ -7,7 +7,7 @@ function Home() {
       <div>
         <div class="homesection">
             <h1>Morgan Jaouni</h1>
-                <h3>Full-Stack Software Engineer</h3>
+                <h2>Full-Stack Software Engineer</h2>
 
         <div class="fling-minislide">
         <img src="./Football.png" alt="Slide 1" />
@@ -15,6 +15,7 @@ function Home() {
         <img src="./Snow.png" alt="Slide 3" />
         <img src="./Brother.png" alt="Slide 4" />
           </div>
+        </div>
         <footer>
             <h3 class="contact">Contact</h3>
                 <p>Morgan.jaouni@ttu.edu</p>
@@ -24,7 +25,6 @@ function Home() {
                 <a class="social" href="https://github.com/morgan-jaouni">< FaGit /></a>
                 </div>
         </footer>
-        </div>
       </div>
     );
   }
