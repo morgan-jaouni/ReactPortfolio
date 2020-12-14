@@ -1,5 +1,5 @@
 body {
-    background-color: blanchedalmond;
+    background-image:url ("../download.jpg");
 }
 
 .navbar {
@@ -40,13 +40,14 @@ p {
 .homesection {
     margin:auto;
     width: 50%;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 footer {
     position: absolute;
+    margin-left: 152px;
     bottom: 0;
-    width: 50vw;
+    width: 30vw;
     background-color: black;
     color: blanchedalmond;
     border-radius: 10px;
@@ -102,9 +103,11 @@ img:hover {
 .fling-minislide {
     width:350px;
     height:300px; 
+    margin-top:50px;
     border-radius: 50%;
     overflow:hidden; 
     position:relative; 
+    left:27%;
 }
 .fling-minislide img {
     position:absolute;
@@ -121,3 +124,17 @@ img:hover {
       .fling-minislide img:nth-child(2){animation-delay:10s;}
       .fling-minislide img:nth-child(3){animation-delay:5s;}
       .fling-minislide img:nth-child(4){animation-delay:0s;}
+
+
+a {
+    color: blanchedalmond;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 5px;
+    
+}
+
+footer div {
+    text-align: center;
+    margin-bottom: 10px;
+}
