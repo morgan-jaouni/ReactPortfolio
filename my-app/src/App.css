@@ -1,5 +1,7 @@
 body {
-    background-image:url ("../download.jpg");
+    background-image:url('https://w.wallhaven.cc/full/ox/wallhaven-oxeyr5.jpg');
+    background-repeat: no-repeat;
+    background-size: 1650px 1040px;
 }
 
 .navbar {
@@ -14,10 +16,24 @@ body {
     text-align: center;
  }
 
-h1, h3 {
+h1 {
     text-align: center;
     font-weight: 800;
-    font-size: 25px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #CCCCCC;
+}
+h2 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #CCCCCC;
+}
+h3 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 22px;
 }
 p {
     text-align: center;
@@ -40,17 +56,17 @@ p {
 .homesection {
     margin:auto;
     width: 50%;
-    padding: 50px 0;
+    padding: 25px 0;
 }
 
 footer {
     position: absolute;
-    margin-left: 152px;
     bottom: 0;
     width: 30vw;
+    margin-left: 552px;
+    border-radius: 20px;
     background-color: black;
     color: blanchedalmond;
-    border-radius: 10px;
 }
 p {
     font-weight: 700px;
@@ -73,7 +89,6 @@ p {
     border-radius: 20px;
     display: inline-block;
 }
-
 .current {
     padding: 3px;
     width: 375px;
@@ -131,7 +146,6 @@ a {
     text-decoration: none;
     display: inline-block;
     margin: 0 5px;
-    
 }
 
 footer div {
