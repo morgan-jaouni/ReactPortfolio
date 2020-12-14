@@ -10,7 +10,6 @@ function App() {
       <Link class="navlinks" to="/">Home</Link>
       <Link class="navlinks" to="/Projects">Projects</Link>
       </nav>
-      <Index></Index>
     </div>
   );
 }
