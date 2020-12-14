@@ -1,5 +1,6 @@
 import React from "react";
 import "../App.css";
+import { FaLinkedinIn, FaGit } from 'react-icons/fa';
 
 function Home() {
     return (
@@ -9,15 +10,19 @@ function Home() {
                 <h3>Full-Stack Software Engineer</h3>
 
         <div class="fling-minislide">
-        <img src="./Me.jpg" alt="Slide 1" />
-        <img src="./Me.jpg" alt="Slide 2" />
-        <img src="./Current.png" alt="Slide 3" />
-        <img src="./Me.jpg" alt="Slide 4" />
+        <img src="./Football.png" alt="Slide 1" />
+        <img src="./Chemistry.png" alt="Slide 2" />
+        <img src="./Snow.png" alt="Slide 3" />
+        <img src="./Brother.png" alt="Slide 4" />
           </div>
         <footer>
             <h3 class="contact">Contact</h3>
                 <p>Morgan.jaouni@ttu.edu</p>
-                <p>512-820-5425</p>
+                <p>(512) 820-5425</p>
+                <div>
+                <a class="social" href="https://www.linkedin.com/in/morgan-jaouni/">< FaLinkedinIn /></a>
+                <a class="social" href="https://github.com/morgan-jaouni">< FaGit /></a>
+                </div>
         </footer>
         </div>
       </div>
