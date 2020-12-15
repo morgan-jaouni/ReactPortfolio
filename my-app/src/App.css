@@ -182,6 +182,8 @@ img:hover {
  }
  body {
      overflow-x: hidden;
+     overflow-y: scroll;
+     scroll-behavior: smooth;
      width: 100%;
  }
 }
