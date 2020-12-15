@@ -161,7 +161,6 @@ img:hover {
     height:350px; 
     margin-top:3%;
     border-radius: 50%;
-    display: flex;
     overflow:hidden; 
     position:relative; 
     margin-left: auto;
@@ -175,15 +174,15 @@ img:hover {
 }
 @media only screen and (max-width: 479px){
         .fling-minislide img { 
-            width: 225px;
-            height: 150px;
+            width: 170px;
+            height: 120px;
             margin-top:3%;
             border-radius: 50%;
-            display: flex;
+            display: block;
             overflow:hidden; 
             position:relative; 
-            margin-left: 75px;
-            margin-right: 75px; }
+            margin-left: auto;
+            margin-right: auto; }
  }
   
 @keyframes fling-minislide { 
