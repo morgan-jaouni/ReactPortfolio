@@ -174,7 +174,7 @@ img:hover {
 }
 @media only screen and (max-width: 479px){
         .fling-minislide img { 
-            width: 225px;
+            width: 200px;
             height: 175px;
             border-radius: 50%;
             text-align: center;
