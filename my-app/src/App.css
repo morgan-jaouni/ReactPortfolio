@@ -23,14 +23,22 @@ h1 {
     font-weight: 800;
     font-size: 2em;
     text-transform: uppercase;
-    text-shadow: 2px 2px 2px #CCCCCC;
+    text-shadow: 1px 1px blanchedalmond, 
+                2px 2px blanchedalmond, 
+                3px 3px blanchedalmond, 
+                4px 4px blanchedalmond, 
+                5px 5px blanchedalmond;
 }
 h2 {
     text-align: center;
     font-weight: 800;
     font-size: 1.5em;
     text-transform: uppercase;
-    text-shadow: 2px 2px 2px #CCCCCC;
+    text-shadow: 1px 1px blanchedalmond, 
+                2px 2px blanchedalmond, 
+                3px 3px blanchedalmond, 
+                4px 4px blanchedalmond, 
+                5px 5px blanchedalmond;
 }
 h3 {
     text-align: center;
@@ -120,6 +128,10 @@ p {
     height: 35vh;
     border-radius: 20px;
 }
+@media only screen and (max-width: 550px){
+    .blackjack-img { height: 50%; }
+    .current { height: 50%; }
+}
 .anchor-image {
     position:relative;
     margin-top: auto;
@@ -179,5 +191,4 @@ a {
 
 footer div {
     text-align: center;
-    margin-bottom: 15px;
 }
