@@ -179,6 +179,8 @@ img:hover {
             border-radius: 50%;
             text-align: center;
             overflow:hidden; 
+            position: relative;
+            margin-bottom: auto;
  }
  body {
      overflow-x: hidden;
