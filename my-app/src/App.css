@@ -175,7 +175,10 @@ img:hover {
     height: auto;
 }
 @media only screen and (max-width: 479px){
-        .fling-minislide img { width: 100%; }
+        .fling-minislide img { 
+            width:50%;
+            height:50%;
+            border-radius: 50%; }
  }
   
 @keyframes fling-minislide { 
