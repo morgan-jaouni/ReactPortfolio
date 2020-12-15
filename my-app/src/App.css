@@ -75,39 +75,60 @@ p {
     font-weight: 700px;
 }
 .projects {
-    margin-top: 110px;
-    margin-left: 150px;
-    width: 550px;
-    height: 500px;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    height: 50vh;
     background-color: silver;
     border-radius: 20px;
-    display: inline-block;
 }
 .blackjack-container {
-    margin-top: 50px;
-    margin-left: 150px;
-    width: 550px;
-    height: 500px;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    height: 50vh;
     background-color: silver;
     border-radius: 20px;
-    display: inline-block;
 }
 .current {
-    padding: 3px;
-    width: 375px;
-    height: 300px;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 35vw;
+    height: 35vh;
     border-radius: 20px;
-    margin-top: 30px;
-    margin-left: 85px;
 }
 .blackjack-img {
-    display: inline-block;
-    padding: 3px;
-    width: 375px;
-    height: 300px;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 35vw;
+    height: 35vh;
     border-radius: 20px;
-    margin-top: 30px;
-    margin-left: 85px;
+}
+.blackjack-image {
+    position:relative;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 35vw;
+    height: 35vh;
+    border-radius: 20px;
+}
+.anchor-image {
+    position:relative;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 35vw;
+    height: 35vh;
+    border-radius: 20px;
 }
 
 .current-header{
