@@ -18,6 +18,13 @@ function Projects() {
             <img class="blackjack-img" src="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Blackjack.png?raw=true" alt=""></img>
             </a>
         </div>
+            <div class="blackjack-container">
+            <h3 class="current-header">Project Wayfarer</h3>
+            <p>Post images of your travels and view other users posts - Python,Django,PostgreSQL</p>
+             <a class="blackjack-image" href="https://morgan-jaouni.github.io/Black-jack/">
+            <img class="blackjack-img" src="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Blackjack.png?raw=true" alt=""></img>
+            </a>
+        </div>
       </div>
     );
   }
