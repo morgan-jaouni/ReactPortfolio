@@ -1,6 +1,5 @@
 import React from "react";
 import "../App.css";
-import { FaLinkedinIn, FaGit } from 'react-icons/fa';
 
 function Projects() {
     return (
