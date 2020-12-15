@@ -1,8 +1,10 @@
 body {
-    background-image:url('https://w.wallhaven.cc/full/ox/wallhaven-oxeyr5.jpg');
-    background-repeat: no-repeat;
-    background-size: 1650px 1040px;
-}
+    background: url('https://w.wallhaven.cc/full/ox/wallhaven-oxeyr5.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    }
+
 
 .navbar {
     font: 12px 'opensans-bold', sans-serif;
@@ -19,23 +21,24 @@ body {
 h1 {
     text-align: center;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 2em;
     text-transform: uppercase;
     text-shadow: 2px 2px 2px #CCCCCC;
 }
 h2 {
     text-align: center;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 1.5em;
     text-transform: uppercase;
     text-shadow: 2px 2px 2px #CCCCCC;
 }
 h3 {
     text-align: center;
     font-weight: 800;
-    font-size: 22px;
+    font-size: 1em;
 }
 p {
+    font-size: .9em;
     text-align: center;
     font-weight: 700;
 }
@@ -55,18 +58,18 @@ p {
 }
 .homesection {
     margin:auto;
+    display: flex;
+    flex-direction: column;
     width: 50%;
-    padding: 25px 0;
 }
 
 footer {
     position: absolute;
     bottom: 0;
-    width: 30vw;
-    margin-left: 552px;
-    border-radius: 20px;
     background-color: black;
     color: blanchedalmond;
+    width: 100%;
+    height: 7rem;
 }
 p {
     font-weight: 700px;
@@ -118,11 +121,13 @@ img:hover {
 .fling-minislide {
     width:350px;
     height:300px; 
-    margin-top:50px;
+    margin-top:5%;
     border-radius: 50%;
+    display: flex;
     overflow:hidden; 
     position:relative; 
-    left:27%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .fling-minislide img {
     position:absolute;
@@ -130,6 +135,9 @@ img:hover {
     opacity:0; 
     width: 100%; 
     height: auto;
+}
+    @media only screen and (max-width: 479px){
+        .fling-minislide { width: 50%; }
     }
   
 @keyframes fling-minislide { 
@@ -150,5 +158,5 @@ a {
 
 footer div {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
