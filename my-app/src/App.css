@@ -63,6 +63,7 @@ p {
 .navlinks:hover {
     border-bottom:10px blanchedalmond;
     transform: scale(1.1);
+    text-shadow: 1px 1px blanchedalmond;
 }
 .homesection {
     margin:auto;
