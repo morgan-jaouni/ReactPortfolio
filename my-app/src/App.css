@@ -177,13 +177,8 @@ img:hover {
             width: 200px;
             height: 150px;
             border-radius: 50%;
+            text-align: center;
             overflow:hidden; 
- }
- body {
-    background-size: cover;
-    position: relative;
-    min-height: 100vh;
-    min-width: 100vw;
  }
 }
   
