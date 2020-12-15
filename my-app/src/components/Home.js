@@ -19,7 +19,6 @@ function Home() {
         <footer>
             <h3 class="contact">Contact</h3>
                 <p>Morgan.jaouni@ttu.edu</p>
-                <p>(512) 820-5425</p>
                 <div>
                 <a class="social" href="https://www.linkedin.com/in/morgan-jaouni/">< FaLinkedinIn /></a>
                 <a class="social" href="https://github.com/morgan-jaouni">< FaGit /></a>
