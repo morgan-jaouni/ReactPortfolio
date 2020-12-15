@@ -180,6 +180,9 @@ img:hover {
             text-align: center;
             overflow:hidden; 
  }
+ body {
+     overflow-x: hidden;
+ }
 }
   
 @keyframes fling-minislide { 
