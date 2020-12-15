@@ -3,6 +3,7 @@ body {
     background-size: cover;
     position: relative;
     min-height: 100vh;
+    overflow-x: hidden;
     }
 
 
@@ -153,9 +154,9 @@ img:hover {
   }
 
 .fling-minislide {
-    width:350px;
-    height:300px; 
-    margin-top:5%;
+    width:450px;
+    height:350px; 
+    margin-top:3%;
     border-radius: 50%;
     display: flex;
     overflow:hidden; 
@@ -204,4 +205,17 @@ footer div {
                 3px 3px blanchedalmond, 
                 4px 4px blanchedalmond, 
                 5px 5px blanchedalmond;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: blanchedalmond;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
