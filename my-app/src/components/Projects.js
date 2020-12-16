@@ -7,8 +7,8 @@ function Projects() {
           <div class="projects">
             <h3 class="current-header">Current v1.0</h3>
             <p>Banking web application built with MongoDB, Express, Node</p>
-             <a class="anchor-image" href="http://rocky-anchorage-99030.herokuapp.com">
-            <img class="current" src="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Current.png?raw=true" alt=""></img>
+             <a class="blackjack-image" href="http://rocky-anchorage-99030.herokuapp.com">
+            <img class="blackjack-img" src="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Current.png?raw=true" alt=""></img>
             </a>
             </div>
             <div class="blackjack-container">
