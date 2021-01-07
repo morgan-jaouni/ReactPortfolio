@@ -21,7 +21,7 @@ function Projects() {
             <div class="blackjack-container">
             <h3 class="current-header">Project Wayfarer</h3>
             <p>Post images of your travels and view other users posts - Python,Django,PostgreSQL</p>
-             <a class="blackjack-image" href="https://github.com/morgan-jaouni/Wayfarer">
+             <a class="blackjack-image" href="https://anywhere-else-app.herokuapp.com">
             <img class="blackjack-img" src="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Wayfarer.png?raw=true" alt=""></img>
             </a>
         </div>
