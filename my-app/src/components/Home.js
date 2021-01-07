@@ -6,7 +6,7 @@ function Home() {
     return (
       <div>
         <div class="homesection">
-            <h1>Morgan Jaouni</h1>
+            <h1 class="home-header">Morgan Jaouni</h1>
                 <h2>Full-Stack Software Engineer</h2>
                 <p class="email">Morgan.jaouni@ttu.edu</p>
                 <div>
