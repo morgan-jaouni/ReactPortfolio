@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import { FaLinkedinIn, FaGit } from 'react-icons/fa';
+import { FaGit } from 'react-icons/fa';
 
 function Projects() {
     return (
@@ -15,8 +15,14 @@ function Projects() {
             </a>
             </div>
             <button class="projects-button">
-                <a class="current-git" href="https://github.com/morgan-jaouni">< FaGit /></a>
+                <a class="current-git" href="https://github.com/morgan-jaouni/CurrentBanking">< FaGit /></a>
               </button>
+              <div class="technologies">
+            <p class="p-tech">Technologies:</p>
+            <p class="p-tech">MongoDB</p>
+            <p class="p-tech">Express</p>
+            <p class="p-tech">Node</p>
+               </div>
             </div>
             <div class="projects-container">
             <h3 class="projects-header">BlackJack</h3>
