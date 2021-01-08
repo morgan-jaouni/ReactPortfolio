@@ -27,7 +27,7 @@ h1 {
     margin: 0 auto;
     text-align: center;
     font-weight: 400;
-    font-size: 3.5em;
+    font-size: 4em;
     text-shadow: 1px 1px burlywood;
     letter-spacing: 12px;
     text-transform: uppercase;
@@ -65,13 +65,13 @@ p {
     font-weight: 700;
 }
 .email {
-    font-size: 1.3em;
+    font-size: 1.8em;
     text-align: center;
     font-weight: 300;
 }
 .navlinks {
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 500;
     color: blanchedalmond;
     padding: 25px 0;
     display: inline-block;
@@ -85,9 +85,11 @@ p {
     text-shadow: 1px 1px burlywood;
 }
 .homesection {
-    position: absolute;
-    top: 23%;
-    left: 23%;
+    position: relative;
+    top:85px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
     background: black;
     border: 10px;
     border-radius: 25px;
@@ -96,13 +98,27 @@ p {
     flex-direction: column;
     justify-content: center;
     height: 65vh;
-    width: 55vw;
+    width: 70vw;
     text-align: center;
-    justify-content: center;
+}
+.home-border {
+    display: block;
+    width: 30vw;
+    height: 3px;
+    background: #f1cd8f;
+    margin: 10px auto;
+}
+.projects-border {
+    width: 11vw;
+    height: 3px;
+    background: #f1cd8f;
+    margin: 10px auto;
+    position:absolute;
+    left:10%;
+    top:42%;
 }
 .home-header {
     margin-bottom: 3vh;
-    text-align: center;
 }
 p {
     font-size: 18px;
@@ -140,7 +156,7 @@ p {
 }
 .projects-button {
     position:absolute;
-    left:10%;
+    left:7.5%;
     top:25%;
     font-size: 30px;
 }
@@ -221,7 +237,8 @@ button {
     display: inline-block;
     background-color: burlywood;
     margin-top: 25px;
-    margin-left: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
     border-radius: 50%;
     width: 100px;
     height: 50px;
