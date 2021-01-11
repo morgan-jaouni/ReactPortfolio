@@ -1,1 +1,6 @@
-# ReactPortfolio
+# Portfolio
+
+## Technologies Used:
+### React.js
+
+
