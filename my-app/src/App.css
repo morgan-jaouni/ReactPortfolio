@@ -39,8 +39,6 @@ h2 {
     margin-top: 5px;
     font-size: 2em;
     text-transform: uppercase;
-    
-
 }
 h3 {
     text-align: center;
@@ -48,16 +46,22 @@ h3 {
     font-size: 1em;
 }
 p {
-    font-size: .9em;
     text-align: center;
     color: burlywood;
     font-weight: 700;
+    font-size: 18px;
+    font-weight: 700px;
 }
 
 .technologies {
     position:absolute;
     left:12%;
     top:45%;
+}
+.about-p {
+    position:absolute;
+    left:10%;
+    top:20%;
 }
 .contact {
     font-size: 1em;
@@ -120,11 +124,6 @@ p {
 .home-header {
     margin-bottom: 3vh;
 }
-p {
-    font-size: 18px;
-    font-weight: 700px;
-}
-
 .projects-container {
     position: relative;
     margin-top: 60px;
@@ -134,7 +133,18 @@ p {
     width: 65vw;
     height: 70vh;
     background-color: black;
-    border: 10px;
+    border-radius: 25px;
+    border: 2px solid burlywood;
+}
+.about-container {
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+    height: 15vh;
+    background-color: black;
     border-radius: 25px;
     border: 2px solid burlywood;
 }
@@ -149,6 +159,23 @@ p {
     text-orientation: upright;
     text-transform: uppercase;
     text-shadow: 1px 1px burlywood; 
+}
+.about-header {
+    color: burlywood;
+    position: absolute;
+    display: inline-block;
+    font-size: 2.3vh;
+    top: 50%;
+    transform: translateY(-50%);
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-transform: uppercase;
+    text-shadow: 1px 1px burlywood; 
+}
+.about-me {
+    margin: 0;
+    margin-right: 50px;
+    font-size: 20px;
 }
 .projects-p {
     color:burlywood;
