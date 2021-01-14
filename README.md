@@ -1,6 +1,6 @@
 # Portfolio
 
 ## Technologies Used:
-### React.js
+* React.js
 
 
