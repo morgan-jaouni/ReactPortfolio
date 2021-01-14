@@ -11,7 +11,7 @@ function Projects() {
             </div>
             <div>
              <a href="http://rocky-anchorage-99030.herokuapp.com">
-            <img class="projects-img-anchor" src="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Current.png?raw=true" alt=""></img>
+             <img class="projects-img-anchor" src="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Current.png?raw=true" alt=""></img>
             </a>
             </div>
             <button class="projects-button">

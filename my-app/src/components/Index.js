@@ -1,7 +1,6 @@
 import React from "react";
 import Home from "./Home";
 import Projects from "./Projects";
-import Resume from "./Resume";
 import About from "./About";
 import { Switch,Route } from "react-router-dom";
 
@@ -10,7 +9,6 @@ function Index() {
         <Switch>
             <Route exact path="/ReactPortfolio/Projects" component={Projects} />
             <Route exact path="/ReactPortfolio" component={Home} />
-            <Route exact path="/ReactPortfolio/Resume" component={Resume} />
             <Route exact path="/ReactPortfolio/About" component={About} />
         </Switch>
     );
