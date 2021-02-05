@@ -44,7 +44,7 @@ function Projects() {
             <div class="projects-container">
             <h3 class="projects-header">Believer</h3>
              <a class="projects-image" href="https://github.com/morgan-jaouni/Job-Tracker">
-            <img class="projects-img-anchor" src="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Wayfarer.png?raw=true" alt=""></img>
+            <img class="projects-img-anchor" src="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Believer.png?raw=true" alt=""></img>
             </a>
             <button class="projects-button">
                 <a class="current-git" href="https://github.com/morgan-jaouni/Job-Tracker">< FaGit /></a>
