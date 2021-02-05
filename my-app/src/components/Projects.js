@@ -43,11 +43,11 @@ function Projects() {
         </div>
             <div class="projects-container">
             <h3 class="projects-header">Believer</h3>
-             <a class="projects-image" href="https://anywhere-else-app.herokuapp.com">
+             <a class="projects-image" href="https://github.com/morgan-jaouni/Job-Tracker">
             <img class="projects-img-anchor" src="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Wayfarer.png?raw=true" alt=""></img>
             </a>
             <button class="projects-button">
-                <a class="current-git" href="https://github.com/morgan-jaouni/Wayfarer">< FaGit /></a>
+                <a class="current-git" href="https://github.com/morgan-jaouni/Job-Tracker">< FaGit /></a>
               </button>
               <div class="projects-border"></div>
               <div class="technologies">
