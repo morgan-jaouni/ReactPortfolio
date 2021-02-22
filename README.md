@@ -1,6 +1,6 @@
 # Portfolio
 
-## Technologies Used:
+### Technologies Used:
 * React.js
 * HTML
 * CSS
