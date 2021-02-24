@@ -42,6 +42,21 @@ function Projects() {
                </div>
         </div>
             <div class="projects-container">
+            <h3 class="projects-header">Bizzee</h3>
+             <a class="projects-image" href="https://github.com/morgan-jaouni/GA-Hackathon">
+            <img class="projects-img-anchor" src="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Wayfarer.png?raw=true" alt=""></img>
+            </a>
+            <button class="projects-button">
+                <a class="current-git" href="https://github.com/morgan-jaouni/GA-Hackathon">< FaGit /></a>
+              </button>
+              <div class="projects-border"></div>
+              <div class="technologies">
+            <p class="p-tech">Technologies:</p>
+            <p class="p-tech">React</p>
+            <p class="p-tech">JavaScript</p>
+               </div>
+        </div>
+            <div class="projects-container">
             <h3 class="projects-header">Believer</h3>
              <a class="projects-image" href="https://github.com/morgan-jaouni/Job-Tracker">
             <img class="projects-img-anchor" src="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Believer.png?raw=true" alt=""></img>
