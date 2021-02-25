@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import { Link } from 'react-router-dom';
 import Index from "./components/Index";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Link class="navlinks" to="/">Home</Link>
       <Link class="navlinks" to="/Projects">Projects</Link>
       </nav>
-      <Index></Index>
+      <Index>
+      </Index>
     </div>
   );
 }
