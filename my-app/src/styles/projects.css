@@ -1,0 +1,100 @@
+.projects-border {
+    width: 11vw;
+    height: 3px;
+    background: #f1cd8f;
+    margin: 10px auto;
+    position:absolute;
+    left:10%;
+    top:42%;
+}
+.projects-container {
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65vw;
+    height: 70vh;
+    background-color: black;
+    border-radius: 25px;
+    border: 2px solid burlywood;
+    -webkit-animation: slide-in-blurred-top 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: slide-in-blurred-top 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+    }
+ @-webkit-keyframes slide-in-blurred-top {
+    0% {  -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+                  transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+          -webkit-transform-origin: 50% 0%;
+                  transform-origin: 50% 0%;
+          -webkit-filter: blur(40px);
+                  filter: blur(40px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+                  transform: translateY(0) scaleY(1) scaleX(1);
+          -webkit-transform-origin: 50% 50%;
+                  transform-origin: 50% 50%;
+          -webkit-filter: blur(0);
+                  filter: blur(0);
+          opacity: 1;
+        }
+      }
+ @keyframes slide-in-blurred-top {
+    0% {
+        -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+                transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+        -webkit-transform-origin: 50% 0%;
+                transform-origin: 50% 0%;
+        -webkit-filter: blur(40px);
+                filter: blur(40px);
+          opacity: 0;
+        }
+    100% {
+          -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+                  transform: translateY(0) scaleY(1) scaleX(1);
+          -webkit-transform-origin: 50% 50%;
+                  transform-origin: 50% 50%;
+          -webkit-filter: blur(0);
+                  filter: blur(0);
+          opacity: 1;
+        }
+      }
+
+.projects-header {
+        color: burlywood;
+        position: absolute;
+        display: inline-block;
+        font-size: 5vh;
+        top: 50%;
+        transform: translateY(-50%);
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        text-transform: uppercase;
+        text-shadow: 1px 1px burlywood; 
+    }
+
+.projects-button {
+        position:absolute;
+        left:7.5%;
+        top:25%;
+        font-size: 30px;
+}
+.projects-img-anchor {
+        position:absolute;
+        top: 17%;
+        left:30%;
+        width: 40vw;
+        height: 45vh;
+        border: 10px;
+        border-radius: 25px;
+        border: 2px solid burlywood;
+}
+    
+@media only screen and (max-width: 550px){
+        .blackjack-img { height: 50%; }
+}
+img:hover {
+        box-shadow: 0 0 25px 3px black;
+        transform: scale(1.1);
+    }

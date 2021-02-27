@@ -1,0 +1,76 @@
+
+.homesection {
+    position: relative;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: black;
+    border: 10px;
+    border-radius: 0 0 85% 85% / 55%;
+    border: 2px solid burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 75vh;
+    width: 60vw;
+    text-align: center;
+    -webkit-animation: slide-in-blurred-top 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: slide-in-blurred-top 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+    }
+
+ /* * animation tilt-in-fwd-tr */
+ @-webkit-keyframes slide-in-blurred-top {
+    0% {
+      -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+              transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+              transform: translateY(0) scaleY(1) scaleX(1);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-blurred-top {
+    0% {
+      -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+              transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+              transform: translateY(0) scaleY(1) scaleX(1);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  
+
+
+
+
+.home-border {
+    display: block;
+    width: 30vw;
+    height: 3px;
+    background: #f1cd8f;
+    margin: 10px auto;
+}
+.home-header {
+    margin-bottom: 3vh;
+}

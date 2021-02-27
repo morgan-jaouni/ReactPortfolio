@@ -1,0 +1,27 @@
+.navlinks {
+    font-size: 18px;
+    font-weight: 900;
+    color: burlywood;
+    padding: 25px 0;
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.navlinks:hover {
+    border-bottom:10px burlywood;
+    transform: scale(1.1);
+    text-shadow: 1px 1px burlywood;
+}
+
+.navbar {
+    font: 15px 'Courier New', monospace;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 0 auto;
+    height: 8vh;
+    width: 100vw;
+    background-color: black;
+    text-align: center;
+ }
