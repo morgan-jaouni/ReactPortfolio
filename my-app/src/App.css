@@ -96,41 +96,10 @@ p {
     font-weight: 300;
 }
 
-.about-container {
-    position: relative;
-    margin-top: 60px;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60vw;
-    height: 15vh;
-    background-color: black;
-    border-radius: 25px;
-    border: 2px solid burlywood;
-}
-
-.about-header {
-    color: burlywood;
-    position: absolute;
-    display: inline-block;
-    font-size: 2.3vh;
-    top: 50%;
-    transform: translateY(-50%);
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    text-transform: uppercase;
-    text-shadow: 1px 1px burlywood; 
-}
-.about-me {
-    margin: 0;
-    margin-right: 50px;
-    font-size: 20px;
-}
 .projects-p {
     color:burlywood;
     font-size: 1em;
 }
-
 
 .social {
     color: black;

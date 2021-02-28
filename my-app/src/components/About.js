@@ -5,20 +5,30 @@ function About() {
     return (
       <div>
         <div>
-        <div class="fling-minislide">
-        <img src="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Football.png?raw=true" alt="Slide 1" />
-        <img src="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Brother.png?raw=true" alt="Slide 4" />
-        <img src="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Snow.png?raw=true" alt="Slide 3" />
-        <img src="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Chemistry.png?raw=true" alt="Slide 2" />
-          </div>
-          <div class="about-container">
-            <h3 class="about-header">About</h3>
-              <div class="about-p">
-            <p class="about-me">I love software, science, & sports! When I'm not coding, I can be found on the lake, in the gym, at the beach, or in the mountains. I am currently seeking collaborative Software Development roles!  </p>
-               </div>
+        <div class="about-div">
+            <h1 class="about-header">About Me</h1>
+            <div class="home-border"></div>
+            <p class="about-me">I'm a full-stack Software Engineer from Austin, Texas! <br></br> When I'm not coding, I enjoy spending time on the lake, at the gym, or in the mountains. I am currently seeking collaborative Software Development roles! <br></br> Contact: Morgan-jaouni@outlook.com</p>
+            <p class="skills">Skills</p>
+            <div>
+            </div>
+            <p class="skills">Programming Languages</p>
+            <ul>
+                <li class="skills">JavaScript</li>
+                <li class="skills">Python</li>
+                <li class="skills">HTML</li>
+                <li class="skills">CSS</li>
+            </ul>
+            <p class="skills">Frameworks & Technologies</p>
+            <ul>
+                <li class="skills">Node.js</li>
+                <li class="skills">React.js</li>
+                <li class="skills">MongoDb</li>
+                <li class="skills">CSS</li>
+            </ul>
         </div>
         </div>
-      </div>
+        </div>
     );
   }
 
