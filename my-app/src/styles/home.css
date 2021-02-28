@@ -59,13 +59,7 @@
     }
   }
 
-.home-border {
-    display: block;
-    width: 30vw;
-    height: 3px;
-    background: #f1cd8f;
-    margin: 10px auto;
-}
+
 .home-header {
     margin-bottom: 3vh;
 }

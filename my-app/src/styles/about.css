@@ -65,5 +65,24 @@
 }
 .skills {
     color:burlywood;
-    text-align: left;
+    text-align: center;
+    display:inline-block;
+    margin: 3px;
+}
+.skills-list {
+    color:burlywood;
+    text-align: center;
+    margin: 0;
+    margin-right: 15px;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+ul {
+    text-align: center;
+}
+.resume {
+    color:burlywood;
+    font-size: 18px;
+    text-align: center;
 }
