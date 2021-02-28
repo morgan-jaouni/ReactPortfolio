@@ -30,7 +30,7 @@ function About() {
                 <li class="skills-list">Django</li>
                 <li class="skills-list">Bootstrap</li>
             </ul>
-            <a class="resume" href="file:///Users/Morganjaouni/Downloads/Morgan-Jaouni_5%20(2).pdf">Resume</a>
+            <a class="resume" href="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Resume.png">Resume</a>
             <p> Contact: Morgan-jaouni@outlook.com</p>
         </div>
         </div>
