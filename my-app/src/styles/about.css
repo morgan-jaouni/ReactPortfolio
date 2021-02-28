@@ -65,8 +65,6 @@
 }
 .skills {
     color:burlywood;
-    text-align: center;
-    display:inline-block;
     margin: 3px;
 }
 .skills-list {
@@ -81,8 +79,9 @@
 ul {
     text-align: center;
 }
-.resume {
+a {
+    display:block;
     color:burlywood;
-    font-size: 18px;
     text-align: center;
+    font-size: 18px;
 }

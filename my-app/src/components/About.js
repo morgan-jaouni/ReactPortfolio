@@ -13,6 +13,7 @@ function About() {
             <p class="skills">Skills</p>
             <div>
             </div>
+            <div class="skills-div">
             <p class="skills">Programming Languages</p>
             <ul>
                 <li class="skills-list">JavaScript</li>
@@ -30,8 +31,9 @@ function About() {
                 <li class="skills-list">Django</li>
                 <li class="skills-list">Bootstrap</li>
             </ul>
-            <a class="resume" href="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Resume.png">Resume</a>
+            <a id="resume" href="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Resume.png">Resume</a>
             <p> Contact: Morgan-jaouni@outlook.com</p>
+            </div>
         </div>
         </div>
         </div>
