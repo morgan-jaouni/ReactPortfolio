@@ -1,14 +1,13 @@
 .fling-minislide {
-    width:450px;
+    width:400px;
+    display: inline-block;
     height:350px; 
-    margin-top:55px;
+    margin-top:35px;
+    margin-left: 20px;
     border-radius: 50%;
     overflow:hidden; 
     position:relative; 
-    margin-left: auto;
-    margin-right: auto;
-    border: solid;
-    border-width: 8px;
+    border: 6px solid burlywood;
 }
 .fling-minislide img {
     position:absolute;
@@ -16,6 +15,7 @@
     opacity:0; 
     width: 100%; 
 }
+
 @media only screen and (max-width: 479px){
         .fling-minislide img { 
             width: 200px;
@@ -58,26 +58,30 @@
         -webkit-animation: slide-in-blurred-top 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
                 animation: slide-in-blurred-top 0.4s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 }
-
+.fling {
+    position: absolute;
+    top: 36%;
+    left: 52%;
+}
 .about-header {
     margin-top: 5vh;
     margin-bottom: 3vh;
 }
 .skills {
     color:burlywood;
-    margin-top: 12px;
+    margin-top: 18px;
 }
 .skills-list {
     color:burlywood;
-    font-size: 15px;
+    font-size: 18px;
     text-align: left;
 }
 .skills-div {
-    position: relative;
-    margin-bottom: auto;
-    margin-right: auto;
+    position: absolute;
+    left: 0%;
+    top:38%;
     width: 30vw;
-    height: 70vh;
+    height: 56.5vh;
     background-color: black;
     border-radius: 25px;
     border: 2px solid burlywood;
@@ -89,6 +93,12 @@ a {
     display:block;
     color:burlywood;
     text-align: center;
+    font-size: 18px;
+}
+.about-me{
+    font-size: 18px;
+}
+#resume {
     font-size: 18px;
 }
 
@@ -119,5 +129,21 @@ a {
     }
     .contact {
         font-size: 10px;
+    }
+    .fling-minislide {
+        width:200px;
+        display: inline-block;
+        height:150px; 
+        margin-top:35px;
+        margin-left: 20px;
+        border-radius: 50%;
+        overflow:hidden; 
+        position:relative; 
+        border: 6px solid burlywood;
+    }
+    .fling {
+        position: absolute;
+        top: 36%;
+        left: 40%;
     }
 }

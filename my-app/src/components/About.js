@@ -10,7 +10,7 @@ function About() {
             <div class="home-border"></div>
             <p class="about-me">I'm a full-stack Software Engineer from Austin, Texas! <br></br> When I'm not coding, I enjoy spending time on the lake, at the gym, or in the mountains. I am currently seeking collaborative Software Development roles! <br></br></p>
             <div>
-            </div>
+            
             <div class="skills-div">
             <p class="skills">Programming Languages</p>
             <ul>
@@ -33,6 +33,15 @@ function About() {
             <p class="contact"> Contact: Morgan-jaouni@outlook.com</p>
             </div>
         </div>
+        <div class="fling">
+            <div class="fling-minislide">
+                <img src="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Brother.png?raw=true" alt="Slide 4" />
+                <img src="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Football.png?raw=true" alt="Slide 3" />
+                <img src="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Chemistry.png?raw=true" alt="Slide 2" />
+                <img src="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Snow.png?raw=true" alt="Slide 1" />
+            </div>
+        </div>
+            </div>
         </div>
         </div>
     );
