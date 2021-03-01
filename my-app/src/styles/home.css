@@ -66,8 +66,9 @@
 
 @media (max-width: 600px) {
         .homesection {
-                height: 91vh;
-                width: 80vw;
+                margin-top: 90px;
+                height: 65vh;
+                width: 85vw;
                 border-radius: 25px;
         }
 }

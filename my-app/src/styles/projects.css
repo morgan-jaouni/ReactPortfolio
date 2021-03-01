@@ -1,10 +1,10 @@
 .projects-border {
-    width: 11vw;
+    width: 9vw;
     height: 3px;
     background: #f1cd8f;
     margin: 10px auto;
     position:absolute;
-    left:10%;
+    left:12%;
     top:42%;
 }
 .projects-container {
@@ -76,7 +76,7 @@
 
 .projects-button {
         position:absolute;
-        left:7.5%;
+        left:9%;
         top:25%;
         font-size: 30px;
 }
@@ -116,7 +116,7 @@ img:hover {
                 top:48%;
                     }
         .projects-container {
-                width: 92vw;
+                width: 90vw;
         }
         .projects-img-anchor {
                         position:absolute;
@@ -139,7 +139,7 @@ img:hover {
         }   
         .projects-header {
                 left:0%;
-                font-size: 50px;
+                font-size: 40px;
         }   
         .believer-button {
                 position:absolute;
