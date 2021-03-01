@@ -103,4 +103,12 @@ a {
         width: 30vw;
         margin-bottom: 1vh;
     }
+    .skills-list {
+        color:burlywood;
+        text-align: center;
+        margin: 0;
+        margin-right: 15px;
+        font-size: 14px;
+        list-style-type: none;
+    }
 }

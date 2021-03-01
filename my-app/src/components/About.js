@@ -9,7 +9,6 @@ function About() {
             <h1 class="about-header">About Me</h1>
             <div class="home-border"></div>
             <p class="about-me">I'm a full-stack Software Engineer from Austin, Texas! <br></br> When I'm not coding, I enjoy spending time on the lake, at the gym, or in the mountains. I am currently seeking collaborative Software Development roles! <br></br></p>
-            <p class="skills">Skills</p>
             <div>
             </div>
             <div class="skills-div">
