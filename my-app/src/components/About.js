@@ -30,7 +30,7 @@ function About() {
                 <li class="skills-list">Bootstrap</li>
             </ul>
             <a id="resume" href="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Resume.png">Resume</a>
-            <p> Contact: Morgan-jaouni@outlook.com</p>
+            <p class="contact"> Contact: Morgan-jaouni@outlook.com</p>
             </div>
         </div>
         </div>

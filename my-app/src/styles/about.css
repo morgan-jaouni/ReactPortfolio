@@ -65,17 +65,23 @@
 }
 .skills {
     color:burlywood;
-    margin: 3px;
+    margin-top: 12px;
 }
 .skills-list {
     color:burlywood;
-    text-align: center;
-    margin: 0;
-    margin-right: 15px;
-    font-size: 18px;
-    list-style-type: none;
+    font-size: 15px;
+    text-align: left;
 }
-
+.skills-div {
+    position: relative;
+    margin-bottom: auto;
+    margin-right: auto;
+    width: 30vw;
+    height: 70vh;
+    background-color: black;
+    border-radius: 25px;
+    border: 2px solid burlywood;
+}
 ul {
     text-align: center;
 }
@@ -110,5 +116,8 @@ a {
         margin-right: 15px;
         font-size: 14px;
         list-style-type: none;
+    }
+    .contact {
+        font-size: 10px;
     }
 }
