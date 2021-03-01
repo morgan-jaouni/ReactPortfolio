@@ -63,3 +63,11 @@
 .home-header {
     margin-bottom: 3vh;
 }
+
+@media (max-width: 600px) {
+        .homesection {
+                height: 91vh;
+                width: 80vw;
+                border-radius: 0 0 0% 0% / 0%;
+        }
+}

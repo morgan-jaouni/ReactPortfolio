@@ -15,7 +15,7 @@ function Projects() {
             </a>
             </div>
             <button class="projects-button">
-                <a class="current-git" href="https://github.com/morgan-jaouni/CurrentBanking">< FaGit /></a>
+                <a class="social" href="https://github.com/morgan-jaouni/CurrentBanking">< FaGit /></a>
               </button>
               <div class="projects-border"></div>
               <div class="technologies">
@@ -31,7 +31,7 @@ function Projects() {
             <img class="projects-img-anchor" src="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Wayfarer.png?raw=true" alt=""></img>
             </a>
             <button class="projects-button">
-                <a class="current-git" href="https://github.com/morgan-jaouni/Wayfarer">< FaGit /></a>
+                <a class="social" href="https://github.com/morgan-jaouni/Wayfarer">< FaGit /></a>
               </button>
               <div class="projects-border"></div>
               <div class="technologies">
@@ -47,7 +47,7 @@ function Projects() {
             <img class="projects-img-anchor" src="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Bizzee.png?raw=true" alt=""></img>
             </a>
             <button class="projects-button">
-                <a class="current-git" href="https://github.com/morgan-jaouni/GA-Hackathon">< FaGit /></a>
+                <a class="social" href="https://github.com/morgan-jaouni/GA-Hackathon">< FaGit /></a>
               </button>
               <div class="projects-border"></div>
               <div class="technologies">
@@ -62,7 +62,7 @@ function Projects() {
             <img class="projects-img-anchor" src="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Believer.png?raw=true" alt=""></img>
             </a>
             <button class="projects-button">
-                <a class="current-git" href="https://github.com/morgan-jaouni/Job-Tracker">< FaGit /></a>
+                <a class="social" href="https://github.com/morgan-jaouni/Job-Tracker">< FaGit /></a>
               </button>
               <div class="projects-border"></div>
               <div class="technologies">
@@ -79,13 +79,13 @@ function Projects() {
             <img class="projects-img-anchor" src="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Blackjack.png?raw=true" alt=""></img>
             </a>
             <button class="projects-button">
-                <a class="current-git" href="https://github.com/morgan-jaouni/Black-jack">< FaGit /></a>
+                <a class="social" href="https://github.com/morgan-jaouni/Black-jack">< FaGit /></a>
               </button>
               <div class="projects-border"></div>
               <div class="technologies">
             <p class="p-tech">Technologies:</p>
             <p class="p-tech">React</p>
-            <p class="p-tech">Vanilla JavaScript</p>
+            <p class="p-tech">Vanilla JS</p>
                </div>
         </div>
       </div>
