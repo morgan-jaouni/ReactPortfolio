@@ -61,7 +61,7 @@ function Projects() {
              <a class="projects-image" href="https://github.com/morgan-jaouni/Job-Tracker">
             <img class="projects-img-anchor" src="https://github.com/morgan-jaouni/ReactPortfolio/blob/main/my-app/public/Believer.png?raw=true" alt=""></img>
             </a>
-            <button class="projects-button">
+            <button class="believer-button">
                 <a class="social" href="https://github.com/morgan-jaouni/Job-Tracker">< FaGit /></a>
               </button>
               <div class="projects-border"></div>

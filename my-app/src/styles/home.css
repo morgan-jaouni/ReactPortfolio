@@ -68,6 +68,6 @@
         .homesection {
                 height: 91vh;
                 width: 80vw;
-                border-radius: 0 0 0% 0% / 0%;
+                border-radius: 25px;
         }
 }

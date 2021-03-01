@@ -91,9 +91,6 @@
         border: 2px solid burlywood;
 }
     
-@media only screen and (max-width: 550px){
-        .blackjack-img { height: 50%; }
-}
 img:hover {
         box-shadow: 0 0 25px 3px black;
         transform: scale(1.1);
@@ -111,48 +108,19 @@ img:hover {
         left:12%;
         top:46%;
             }
-@media (max-width: 600px) {
-        .technologies {
-                position:absolute;
-                left:45%;
-                top:55%;
-                    }
-        .projects-container {
-                width: 92vw;
-        }
-        .projects-img-anchor {
-                        position:absolute;
-                        top: 15%;
-                        left:28%;
-                        width: 60vw;
-                        height: 25vh;
-                        border: 10px;
-                        border-radius: 25px;
-                        border: 2px solid burlywood;
-                }
-        .projects-button {
-                        position:absolute;
-                        left:38%;
-                        top:81%;
-                        font-size: 30px;
-        }   
-        .projects-border{
-                width:0vw;
-        }   
-         
- }
+
 @media (max-width: 1224px) {
         .technologies {
                 position:absolute;
                 left:45%;
-                top:55%;
+                top:48%;
                     }
         .projects-container {
                 width: 92vw;
         }
         .projects-img-anchor {
                         position:absolute;
-                        top: 15%;
+                        top: 8%;
                         left:28%;
                         width: 60vw;
                         height: 25vh;
@@ -163,10 +131,20 @@ img:hover {
         .projects-button {
                         position:absolute;
                         left:38%;
-                        top:81%;
+                        top:77%;
                         font-size: 30px;
         }   
         .projects-border{
                 width:0vw;
-        }     
+        }   
+        .projects-header {
+                left:0%;
+                font-size: 50px;
+        }   
+        .believer-button {
+                position:absolute;
+                left:38%;
+                top:82%;
+                font-size: 30px;
+} 
  }
