@@ -102,14 +102,14 @@ a {
     font-size: 18px;
 }
 
-@media (max-width: 1224px) {
+@media (max-width: 600px) {
     .about-header {
         margin-top: 2vh;
         margin-bottom: 3px;
         font-size: 22px;
     }
     .about-div {
-        width: 85vw;
+        width: 90vw;
     }
     .about-me {
         font-size: 15px;
@@ -131,9 +131,60 @@ a {
         font-size: 10px;
     }
     .fling-minislide {
-        width:200px;
+        width: 200px;
+        height: 200px; 
         display: inline-block;
-        height:150px; 
+        margin-top:35px;
+        margin-left: 20px;
+        border-radius: 50%;
+        overflow:hidden; 
+        position:relative; 
+        border: 6px solid burlywood;
+    }
+    .fling {
+        position: absolute;
+        top: 36%;
+        left: 36%;
+    }
+    .skills {
+        font-size: 10px;
+    }
+    .skills-list {
+        font-size: 10px;
+    }
+}
+@media (max-width:479px) and (min-width:900px) {
+    .about-header {
+        margin-top: 2vh;
+        margin-bottom: 3px;
+        font-size: 22px;
+    }
+    .about-div {
+        width: 85vw;
+    }
+    .about-me {
+        font-size: 15px;
+        margin-right:5px;
+    }
+    .home-border {
+        width: 30vw;
+        margin-bottom: 1vh;
+    }
+    .skills-list {
+        color:burlywood;
+        text-align: left;
+        margin: 0;
+        margin-right: 15px;
+        font-size: 14px;
+        list-style-type: none;
+    }
+    .contact {
+        font-size: 10px;
+    }
+    .fling-minislide {
+        width: 200px;
+        height: 175px; 
+        display: inline-block;
         margin-top:35px;
         margin-left: 20px;
         border-radius: 50%;

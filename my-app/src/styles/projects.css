@@ -109,7 +109,7 @@ img:hover {
         top:46%;
             }
 
-@media (max-width: 1224px) {
+@media (max-width: 900px) {
         .technologies {
                 position:absolute;
                 left:45%;
