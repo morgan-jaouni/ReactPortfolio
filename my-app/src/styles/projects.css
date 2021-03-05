@@ -112,8 +112,8 @@ img:hover {
 @media (max-width: 900px) {
         .technologies {
                 position:absolute;
-                left:45%;
-                top:48%;
+                left:44%;
+                top:47%;
                     }
         .projects-container {
                 width: 90vw;
@@ -130,7 +130,7 @@ img:hover {
                 }
         .projects-button {
                         position:absolute;
-                        left:38%;
+                        left:37%;
                         top:77%;
                         font-size: 30px;
         }   
